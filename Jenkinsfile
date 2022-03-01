@@ -9,7 +9,7 @@ pipeline{
                 branch 'develop'
             }
             steps{
-                sh "mvn clean pacakge" 
+                sh "mvn clean package" 
             }
         }
     }
