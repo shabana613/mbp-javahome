@@ -4,7 +4,7 @@ pipeline{
         maven 'maven3'
     }
     stages{
-        stage('MAVEN BUILD) {
+        stage('MAVEN BUILD') {
               when{
               branch "develop"
               }
